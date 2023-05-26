@@ -1,0 +1,130 @@
+  @import url('https://fonts.googleapis.com/css2?family=Oxygen&family=Poppins:ital,wght@0,700;1,200&family=Roboto&family=Roboto+Slab:wght@200;400&family=Wix+Madefor+Display:wght@500;700&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Oxygen&family=Poppins:ital,wght@0,700;1,200&family=Roboto&family=Roboto+Slab:wght@200;400&family=Ubuntu:ital,wght@0,300;0,400;1,300&family=Wix+Madefor+Display:wght@500;700&display=swap');
+  :root {
+    --main-bg-color: #2370f4;
+  }
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+header{
+   
+    background:var(--main-bg-color);
+    font-family: 'Oxygen', sans-serif;
+}
+nav{
+    display: flex;
+    padding: 5px;
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+.logo img{
+    width:88px;
+    padding: 0 25px;
+}
+
+nav ul{
+    height: 58px;
+    display: flex;
+    justify-content:flex-start;
+    align-items: center;
+   
+
+}
+nav ul li{
+    list-style: none;
+    padding: 0 18px;
+    
+}
+
+nav ul li a{
+    color: white; 
+    text-decoration: none;
+  
+}
+nav ul li a:hover{
+
+    font-weight: bold;
+    
+  
+}
+.search{
+    display: flex;
+    align-items: center;
+    margin: 0 56px;
+}
+.search input{
+    width: 30vw;
+    height: 27px;
+    border-radius: 5px;
+    padding: 0 4px;
+}
+.container{
+    min-height: calc(100vh - 58px - 13vh);
+}
+.btn{
+    height: 26px;
+    position: relative;
+    padding:3px 10px;
+    color:white;
+    background-color:var(--main-bg-color);
+    border:2px solid rgb(247, 244, 244);
+    cursor: pointer;
+    font-family: 'Oxygen', sans-serif;
+    font-weight: 700;
+  
+}
+
+.btn:hover{
+    color:black;
+    background-color: white;
+}
+   .slider{
+    display: flex;
+    width: 80vw;
+    margin:12px auto ;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+   
+    
+} 
+.card{
+    max-width: 88vw;
+    margin: 37px auto;
+
+}
+.card h2{
+    font-size:1.2em;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 500;
+
+}
+.cards{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    /* overflow: hidden; */
+}
+/* .card-item image{
+    height :10px;
+}  */
+.card-item{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 0 33px;
+}
+
+footer{
+    background-color: var(--main-bg-color);
+    color: white;
+    height: 11vh;
+    font-family: 'Oxygen', sans-serif;
+}
+
